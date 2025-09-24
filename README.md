@@ -1,16 +1,20 @@
-# maw3ed
 
-A new Flutter project.
+DocBook Flutter scaffold
+========================
 
-## Getting Started
+What's included
+- Flutter project scaffold with multiple screens (login, patient home, doctor list, doctor detail, booking form, appointment history, doctor dashboard).
+- Fake local backend: assets/data/doctors.json read by services/fake_api.dart
+- No external network calls; simple navigation and UI elements to match provided designs.
 
-This project is a starting point for a Flutter application.
+How to run
+1. Install Flutter SDK (https://flutter.dev)
+2. From the project root run: flutter pub get
+3. Run on an emulator or device: flutter run
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Notes / To extend
+- This is a scaffold focusing on structure and flows. You'll want to:
+  - Add persistent user/auth state
+  - Replace fake_api with real REST API
+  - Polish UI to precisely match design
+  - Add localization, validation, and tests

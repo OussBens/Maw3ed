@@ -1,0 +1,26 @@
+[
+  {
+    "id": "d1",
+    "name": "Dr. Sarah Johnson",
+    "specialty": "Cardiology",
+    "bio": "Cardiologist with 10 years experience.",
+    "rating": 4.8,
+    "avatar": ""
+  },
+  {
+    "id": "d2",
+    "name": "Dr. Michael Chen",
+    "specialty": "General Medicine",
+    "bio": "Experienced general physician.",
+    "rating": 4.6,
+    "avatar": ""
+  },
+  {
+    "id": "d3",
+    "name": "Dr. Emily Davis",
+    "specialty": "Dermatology",
+    "bio": "Skin specialist.",
+    "rating": 4.7,
+    "avatar": ""
+  }
+]

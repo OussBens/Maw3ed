@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'login_page.dart';
+import 'login_page.dart'; // import the LoginPage class
 
 void main() {
   runApp(const MyApp());
@@ -12,9 +12,9 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'Login Demo',
+      title: 'Login App',
       theme: ThemeData(primarySwatch: Colors.blue),
-      home: LoginPage(),
+      home: LoginPage(), // 👈 no const here
     );
   }
 }
